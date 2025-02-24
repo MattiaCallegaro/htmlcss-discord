@@ -66,7 +66,7 @@ li{
 }
 
 .bg-grigio{
-    background-color: rgb(170, 165, 165);
+    background-color: #F6F6F6;
 }
 
 .bg-grigio-scuro{
@@ -89,6 +89,12 @@ li{
     height: 323px;
     margin: 15px 0;
 }
+
+.content-big{
+    height: 100px;
+    margin: 15px 0;
+}
+
 
 .rettangolo-1{
     width: 60%;
@@ -180,6 +186,16 @@ a{
     border-radius: 11px;
 }
 
+.button4 {	
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-size: 120%;
+    background-color: #8293DC;
+    color: #ffffff;
+    border: none;
+    border-radius: 11px;
+}
+
 .jumbo{
     background-image:url(/img/jumbo.png);
     background-size: cover;
@@ -191,8 +207,36 @@ a{
         background-image:url(/img/item1.svg);
         background-size: contain;
         background-repeat: no-repeat;
+}
+
+.item-2{
+    background-image: url(/img/item2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.item-3{
+    background-image: url(/img/item3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.item-4{
+    background-image: url(/img/item4-big.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.stars{
+    background-image: url(/img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 300px;
+    
+
 
 }
+
 
 .jumbo-txt {
    display: flex;
@@ -204,16 +248,30 @@ a{
   
 }
 
+.jumbo-txt-1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: rgb(0, 0, 0);
+   
+ }
+
 .item-1-txt{
    display: flex;
    flex-wrap: wrap;
-   align-items: center;
-   justify-content: center;
+   justify-content: start;
    align-content: center;
-    
 }
 
-
+.item-2-txt{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-content: center;
+     
+ }
 
 .button-align{
     align-items: center;
@@ -223,3 +281,7 @@ a{
     text-align: center;
 }
 
+.text-center-big{
+    text-align: center;
+    padding-top: 40px;
+}
