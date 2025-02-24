@@ -45,15 +45,12 @@ li{
     margin: 0px 10px;
 }
 
+
 /* bg colorati */
 
 .bg-giallo{
     background-color: yellow;
     
-}
-
-.bg-blue-1{
-    background-color: blue;
 }
 
 .bg-turchese{
@@ -91,14 +88,14 @@ li{
     margin: 0 auto;}
 
 .content{
-    height: 200px;
-    border: 3px dashed;
+    height: 323px;
     margin: 15px 0;
 }
 
 .rettangolo-1{
     width: 60%;
     margin: auto;
+    
 }
 
 .tg{
@@ -149,7 +146,8 @@ li{
     border: 1px dashed;
 }
 
-a{
+a{  
+    color: white;
     text-decoration: none;
 }
 
@@ -159,4 +157,55 @@ a{
     color: #010101;
     border: none;
     border-radius: 11px;
+}
+
+
+.button2 {	
+    position:relative;
+    bottom: 110px;
+    left: 90px;
+    font-size: 120%;
+    background-color: #fafaff;
+    color: #010101;
+    border: none;
+    border-radius: 11px;
+}
+
+.button3 {	
+    position:relative;
+    bottom: 110px;
+    left: 90px;
+    font-size: 120%;
+    background-color: #151414b8;
+    color: #ffffff;
+    border: none;
+    border-radius: 11px;
+}
+
+.jumbo{
+    background-image:url(/img/jumbo.png);
+    
+}
+
+.jumbo-txt {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   align-content: center;
+   color: white;
+  
+}
+
+.button-align{
+    align-items: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.img-position{
+   background-size: cover;
+   background-repeat: no-repeat;
 }
