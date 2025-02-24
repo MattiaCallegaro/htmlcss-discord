@@ -148,10 +148,6 @@ li{
 
 }
 
-.foot2{
-    margin-top: 50px;
-}
-
 .footer-3{
     margin-top:20px;
     margin-bottom: 30px;
@@ -159,7 +155,7 @@ li{
 
 .foot2{
     width: 50px;
-    margin: 10px;
+    margin-top: 50px;
 }
 
 /* button */
