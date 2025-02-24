@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: Lato;
+    font-size: 19px;
+}
+
 /* header */
 header{ 
     padding: 10px; 
@@ -66,7 +72,7 @@ li{
 
 /* contenitori */
 .container{
-    max-width: 900px;
+    max-width: 1180px;
     margin: 0 auto;}
 
 .content{
@@ -156,6 +162,7 @@ li{
 .foot2{
     width: 50px;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /* button */
@@ -165,12 +172,19 @@ a{
     text-decoration: none;
 }
 
+.button-size{
+    
+}
 .button {	
-    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
     background-color: #fafaff;
     color: #010101;
     border: none;
     border-radius: 11px;
+    font-size: medium;
 }
 
 .button-align{
@@ -178,28 +192,40 @@ a{
 }
 
 .button2 {	
-    position:relative;
-    bottom: 110px;
-    left: 90px;
-    font-size: 120%;
-    background-color: #fafaff;
-    color: #010101;
+    position: relative;
+    bottom: 100px;
+    left: 170px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    background-color: #fffdfd;
+    color: #000000;
     border: none;
     border-radius: 11px;
+    font-size: medium;
 }
 
 .button3 {	
-    position:relative;
-    bottom: 110px;
-    left: 90px;
-    font-size: 120%;
-    background-color: #151414b8;
-    color: #ffffff;
+    position: relative;
+    bottom: 100px;
+    left: 190px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    background-color: #2a2828;
+    color: #fffbfb;
     border: none;
     border-radius: 11px;
+    font-size: medium;
 }
 
 .button4 {	
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
     margin-bottom: 50px;
     margin-top: 20px;
     font-size: 120%;
@@ -210,6 +236,7 @@ a{
 }
 
 /* ìmmagini */
+
 
 .item-1{
         background-image:url(/img/item1.svg);
@@ -236,12 +263,13 @@ a{
 }
 
 .stars{
-    background-image: url(/img/stars.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 300px;
-
+    padding-left: 320px;
 }
+
+.img-big{
+    padding-left: 160px;
+}
+
 
 /* utility */
 .ita{
@@ -249,12 +277,22 @@ a{
     margin: 20px 0 15px;
 }
 
+h4{
+    padding-top: 10px;
+}
+
+h2{
+    padding-bottom: 30px;
+}
+
+.foot-txt{
+    margin-top: 20px;
+
+}
 .ita img{
     height: 15px;
     margin-right: 10px;
 }
-
-
 
 .item-1-txt{
    display: flex;
