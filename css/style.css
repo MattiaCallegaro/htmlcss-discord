@@ -141,11 +141,6 @@ li{
     
 }
 /*footer */
-.foot{
-    height: 40px;
-    margin-top: 5px;
-    border: 1px dashed;
-}
 
 .foot2{
     width: 50px;
@@ -317,6 +312,12 @@ a{
 
 .footer-2 div{
     margin-top: 15px;
+
+}
+
+.footer-3{
+    margin-top:20px;
+    margin-bottom: 30px;
 
 }
 
