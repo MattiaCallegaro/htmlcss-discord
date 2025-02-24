@@ -72,9 +72,7 @@ li{
 .bg-grigio-scuro{
     background-color: rgb(96, 96, 96);
 }
-.item-1{
-        background-image:url(/img/item1.svg);
-}
+
 
 .bg-azzurro{
     background-color: aqua;
@@ -190,6 +188,9 @@ a{
 }
 
 .item-1{
+        background-image:url(/img/item1.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
 
 }
 
@@ -199,13 +200,20 @@ a{
    align-items: center;
    justify-content: center;
    align-content: center;
-   color: white;
+   color: rgb(255, 255, 255);
   
 }
 
 .item-1-txt{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   align-content: center;
     
 }
+
+
 
 .button-align{
     align-items: center;
