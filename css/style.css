@@ -72,8 +72,8 @@ li{
 .bg-grigio-scuro{
     background-color: rgb(96, 96, 96);
 }
-.bg-blue{
-    background-color: rgb(43, 0, 255);    
+.item-1{
+        background-image:url(/img/item1.svg);
 }
 
 .bg-azzurro{
@@ -184,7 +184,13 @@ a{
 
 .jumbo{
     background-image:url(/img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     
+}
+
+.item-1{
+
 }
 
 .jumbo-txt {
@@ -197,6 +203,10 @@ a{
   
 }
 
+.item-1-txt{
+    
+}
+
 .button-align{
     align-items: center;
 }
@@ -205,7 +215,3 @@ a{
     text-align: center;
 }
 
-.img-position{
-   background-size: cover;
-   background-repeat: no-repeat;
-}
