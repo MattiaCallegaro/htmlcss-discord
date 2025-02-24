@@ -73,7 +73,7 @@ li{
 }
 
 .bg-grigio-scuro{
-    background-color: rgb(96, 96, 96);
+    background-color: #23272A;
 }
 
 
@@ -187,7 +187,7 @@ a{
     margin-bottom: 50px;
     margin-top: 20px;
     font-size: 120%;
-    background-color: #8293DC;
+    background-color: #7289DA;
     color: #ffffff;
     border: none;
     border-radius: 11px;
@@ -315,6 +315,10 @@ a{
 
 }
 
+.foot2{
+    margin-top: 50px;
+}
+
 .footer-3{
     margin-top:20px;
     margin-bottom: 30px;
@@ -326,5 +330,5 @@ a{
 }
 
 .text-blu{
-    color: #255EE9;
+    color: #728ADD;
 }
