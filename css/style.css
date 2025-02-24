@@ -51,21 +51,9 @@ li{
 
 /* bg colorati */
 
-.bg-giallo{
-    background-color: yellow;
-    
-}
-
-.bg-turchese{
-    background-color: aqua;
-}
 .bg-bianco{
     background-color: rgb(255, 255, 255);
 
-}
-
-.bg-rosa{
-    background-color: rgb(255, 192, 203);    
 }
 
 .bg-grigio{
@@ -76,13 +64,6 @@ li{
     background-color: #23272A;
 }
 
-
-.bg-azzurro{
-    background-color: aqua;
-}
-.bg-verde{
-    background-color: green;
-}
 /* contenitori */
 .container{
     max-width: 900px;
@@ -98,20 +79,39 @@ li{
     margin: 15px 0;
 }
 
+.jumbo-txt {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   align-content: center;
+   color: rgb(255, 255, 255);
+  
+}
 
-.rettangolo-1{
+.jumbo-txt-1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: rgb(0, 0, 0);
+   
+ }
+
+.jumbo{
+    background-image:url(/img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.jumbo-1{
     width: 60%;
     margin: auto;
     
 }
 
-.tg{
-    height: 500px;
-}
-.rettangolo-piccolo{
-    height: 195px;
-    border: 1px dashed white;
-}
 .width60{
     width: 60%;
 }
@@ -134,18 +134,35 @@ li{
     width: 100%;
 }
 
-
-
-.rettangolo-blue{
-    background-color: rgb(13, 0, 255);
-    
-}
 /*footer */
+
+.footer-2{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.footer-2 div{
+    margin-top: 15px;
+
+}
+
+.foot2{
+    margin-top: 50px;
+}
+
+.footer-3{
+    margin-top:20px;
+    margin-bottom: 30px;
+}
 
 .foot2{
     width: 50px;
     margin: 10px;
 }
+
+/* button */
 
 a{  
     color: white;
@@ -160,6 +177,9 @@ a{
     border-radius: 11px;
 }
 
+.button-align{
+    align-items: center;
+}
 
 .button2 {	
     position:relative;
@@ -193,12 +213,7 @@ a{
     border-radius: 11px;
 }
 
-.jumbo{
-    background-image:url(/img/jumbo.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-}
+/* ìmmagini */
 
 .item-1{
         background-image:url(/img/item1.svg);
@@ -232,6 +247,7 @@ a{
 
 }
 
+/* utility */
 .ita{
     height: 15px;
     margin: 20px 0 15px;
@@ -243,25 +259,6 @@ a{
 }
 
 
-.jumbo-txt {
-   display: flex;
-   flex-wrap: wrap;
-   align-items: center;
-   justify-content: center;
-   align-content: center;
-   color: rgb(255, 255, 255);
-  
-}
-
-.jumbo-txt-1 {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    color: rgb(0, 0, 0);
-   
- }
 
 .item-1-txt{
    display: flex;
@@ -278,9 +275,7 @@ a{
      
  }
 
-.button-align{
-    align-items: center;
-}
+
 
 .text-center{
     text-align: center;
@@ -303,27 +298,6 @@ a{
     display: inline-block;
 }
 
-.footer-2{
-    margin-top: 60px;
-    margin-bottom: 30px;
-    padding: 10px;
-    color: #ffffff;
-}
-
-.footer-2 div{
-    margin-top: 15px;
-
-}
-
-.foot2{
-    margin-top: 50px;
-}
-
-.footer-3{
-    margin-top:20px;
-    margin-bottom: 30px;
-
-}
 
 .social{
     margin: 10px 20px 10px 0px;
